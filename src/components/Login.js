@@ -12,7 +12,7 @@ const Login = () => {
     useEffect(()=>{
     const login = localStorage.getItem('login')
     console.log(typeof(login))
-    if(login === 'true')
+    if(login === 'true') 
     {
         console.log("fjiof")
         navigate('/home')
